@@ -1,0 +1,35 @@
+body {
+	background-color:powderblue;
+}
+
+h1 {
+  color: DarkSlateBlue ;
+  font-family: Aguafina Script;
+  font-size: 300%;
+  border: 9px solid powderblue;
+}
+
+h2 {
+  color: DarkSlateBlue ;
+  font-family: Aguafina Script;
+  font-size: 150%;
+  border: 9px solid powderblue;
+  transform: skewY(.7deg);
+}
+
+p  {
+  color: Maroon ;
+  font-family: Comic Sans MS;
+  font-size: 100%;
+  border: 3px solid #6d093f;
+  text-align:left;
+   transform: skewY(.5deg);
+	
+}
+
+.reset {
+	color: #f711c2 ;
+	font-family: Comic Sans MS;
+	font-size: 100%;
+	border:none;
+}
