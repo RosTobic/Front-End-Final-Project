@@ -1,5 +1,8 @@
 $(document).ready(function(){
-	$("h1").click(function(){ 
-	$("p").text(x = Math.floor(Math.random() * 11));
+	$(".img").click(function(){ 
+	$(".img1").text(x = Math.floor(Math.random() * 11));
+	});
+	$(".text").click(function(){ 
+	$(".text1").text(x = Math.floor(Math.random() * 11));
 	});
 	});
