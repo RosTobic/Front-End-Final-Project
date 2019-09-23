@@ -11,6 +11,8 @@
   
   </head>
   <body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <nav class="navbar navbar-expand-md bg-primary navbar-light">
       <a class="navbar-brand" href="#">My Website</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -30,6 +32,24 @@
         </ul>
       </div>  
     </nav>
+	<script>
+	MemeSwitch=new Array();
+	MemeSwitch[0]='Fist.jpg'
+	MemeSwitch[1]='Butterfly.jpg'
+	MemeSwitch[2]='Cry.jpg'
+	MemeSwitch[3]='Crying Frog.png'
+	MemeSwitch[4]='Elon.jfif'
+	MemeSwitch[5]='Fire.jpg'
+	MemeSwitch[6]='Window.jpg'
+	MemeSwitch[7]='Jah.jfif'
+	MemeSwitch[8]='Rock egg.jfif'
+	MemeSwitch[9]='Shaq.png'
+	function swapImage(
+		document.getElementById("theImage").setAttribute("src", MemeSwitch[Math.round(Math.random()*10)])
+	)
+	</script>
+	<img src="fist.jpg" alt="cs" width="725" height="500" id = "theImage">
+	<button oneclick="swapImage()">Generate</button>
     <h1 class="img">Generate</h1>
 	<p class="img1">
 	x
@@ -41,8 +61,7 @@
 	<ol>
 	
 	</ol>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
 
   </body>
 </html>
