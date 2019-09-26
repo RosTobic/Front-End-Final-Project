@@ -41,24 +41,32 @@
 	MemeSwitch[7]='Jah.jfif'
 	MemeSwitch[8]='Rock egg.jfif'
 	MemeSwitch[9]='Shaq.png'
-	function swapImage(
-		document.getElementById("theImage").setAttribute("src", MemeSwitch[Math.round(Math.random()*10)])
-	)
+	MemeSwitch[10]='Dog.png'
+	MemeSwitch[11]='Face.gif'
+	MemeSwitch[12]='HapppyDog.jfif'
+	MemeSwitch[13]='SpONgEboB.jpg'
+	MemeSwitch[14]='Thanos.jfif'
+	MemeSwitch[15]='Think.jpg'
+	MemeSwitch[16]='Window.jpg'
 	</script>
-	<img src="fist.jpg" alt="cs" width="725" height="500" id = "theImage">
-	<button oneclick="swapImage()">Generate</button>
-    <h1 class="img">Generate</h1>
-	<p class="img1">
-	x
-	</p>
-	<h1 class="text">Generate</h1>
-	<p class="text1">
-	y
-	</p>
-	<ol>
 	
-	</ol>
-   
-
+	<script>
+	MemeCaptions=new Array();
+	MemeCaptions[0]="Fist.jpg"
+	MemeCaptions[1]="Butterfly.jpg"
+	MemeCaptions[2]='Cry.jpg'
+	MemeCaptions[3]='Crying Frog.png'
+	MemeCaptions[4]='Elon.jfif'
+	MemeCaptions[5]='Fire.jpg'
+	MemeCaptions[6]='Window.jpg'
+	MemeCaptions[7]='Jah.jfif'
+	MemeCaptions[8]='Rock egg.jfif'
+	MemeCaptions[9]='Shaq.png'//Needs text^
+	</script>
+	<img class="MemeSwitch" src="fist.jpg" alt="cs" width="725" height="500" id = "theImage">
+	<p class="memeText" id="memeText">
+	text
+	</p>
+    <h1 class="img">Generate</h1>
   </body>
 </html>

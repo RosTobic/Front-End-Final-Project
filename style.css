@@ -17,15 +17,7 @@ h2 {
   transform: skewY(.7deg);
 }
 
-p  {
-  color: Maroon ;
-  font-family: Comic Sans MS;
-  font-size: 100%;
-  border: 3px solid #6d093f;
-  text-align:left;
-   transform: skewY(.5deg);
-	
-}
+
 
 .reset {
 	color: #f711c2 ;
