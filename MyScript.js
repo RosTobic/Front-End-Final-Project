@@ -4,13 +4,13 @@ $(document).ready(function(){
 	});
 	$(".img").click(function(){
 	$("#theImage").attr("src", MemeSwitch[
-		Math.round(Math.random()*11)])
+		Math.round(Math.random()*17)])
 	
 	});
 	
 	
 	$(".img").click(function(){
 	$("#memeText").text(MemeCaptions[
-		Math.round(Math.random()*23)])
+		Math.round(Math.random()*24)])
 	});
 	});
