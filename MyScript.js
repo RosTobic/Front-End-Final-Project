@@ -11,6 +11,6 @@ $(document).ready(function(){
 	
 	$(".img").click(function(){
 	$("#memeText").text(MemeCaptions[
-		Math.round(Math.random()*11)])
+		Math.round(Math.random()*23)])
 	});
 	});
